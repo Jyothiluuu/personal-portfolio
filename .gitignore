@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naga Jyothi Chavali , an enthusiastic- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <img src="IMG-20230507-WA0002.jpg" alt="NagaJyothi Chavali" class="profile-image">
+        <p>Welcome to my personal portfolio ! I am Naga Jyothi Chavali , a passionate learner, who always thrive to learn new things.</p>
+    </section>
+
+<section id="skills">
+        <h1>Skills</h1>
+        <p>Content Writing , Blogging, MySQL and DBMS, Serach Engine Optimization ,Fiction writing.</p>
+    </section>
+    
+    
+    <section id="project">
+        <h1>Project</h1>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h2>Project 1</h2>
+            <p>Business recommendation ssytem usinf flutter and java.</p>
+        </div>
+        <<img src="Screenshot_20231011_100002.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Alzheimer prediction using machine learning.</p>>
+        </div>
+        <<img src="Screenshot_20231011_100230.jpg" alt="Project 3">
+            <h4>Project 3</h4>
+            <p>Price Negotiating using Chat Bot </p>>
+    </section>
+
+    <section id="resumee">
+        <h1>Resume</h1>
+        <p>Reume: <a href=https://in.docworkspace.com/d/sIK6Kyo-ZAfbFmKkG?sa=e1&st=0t>Resume</a></p>
+    </section>
+    
+    
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: nagajyothichavali2002@gmail.com</p>
+        <p>Contact number: 8080366529 </p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>
+
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.profile-image {
+    max-width: 100%;
+    border-radius: 50%;
+}
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
